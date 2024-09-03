@@ -1,0 +1,23 @@
+div.Contenedor.flotado.Contenedor1{ 
+    border: 3px dashed greenyellow;
+
+
+
+
+}  
+
+h1{text-align: center;
+    color: crimson;
+
+}
+
+div.Contenedor.flotado.Contenedor2{border: 3px dashed cornflowerblue;
+   float: right;
+
+}
+
+div.Contenedor.Contenedor3{
+ clear: both;
+ border: 3px dashed darkorange;
+ margin: auto;
+ }

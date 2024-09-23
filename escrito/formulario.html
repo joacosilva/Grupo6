@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khea Tour</title>
+    <link rel='stylesheet' href="css3/estilos.css"/>
+</head>
+<body style="background-color: #7169a5;">
+    <ul>
+        <li><a href="index.html">Biografia</a></li>
+        <li><a href="carreramusical.html">Carrera musical</a></li>
+        <li><a href="discografia.html">Discográfia</a></li>
+        <li><a href="premiosynominaciones.html">Premios y Nominaciones</a></li>
+        <li><a href="formulario.html">Khea Tour</a></li>
+        <li><a href="miembro.html">Conviertete en miembro</a></li>
+        <li><a href="https://linktr.ee/KHEA.YF"> Pagina oficial de Khea</a></li>
+   </ul>
+    <h1>Khea Tour</h1>
+    <form style="background-color:#b3aaec;">
+        <fieldset>
+            <legend>Datos para comprar las entradas al tour de Khea</legend>
+            <label>Nombre:</label> <br/>
+            <input type="text" id="nombre" name="nombre"  placeholder="escribe tu nombre"  required="true"  >
+            
+            <br/>
+    
+            <label>Apellido:</label> <br/>
+            <input type="text" id="apellido" name="apellido"  placeholder="escribe tu apellido"  required="true" >
+            
+            <br/>
+    
+            <label>Email:</label> <br/>
+            <input type="email" id="email" name="email"  placeholder="escribe tu Email"  required="true"  >
+           
+            <br/>
+    
+            <label>Edad:</label> <br/>
+            <input type="number" id="number" name="number"  placeholder="escribe tu edad"  required="true"  >
+            
+            <br/>
+            
+            <label> Ubicacion</label><br/>
+            <select id="ubicacion" name="ubicacion"  multiple="true">
+            <option value="Monterrey">Tickets Monterrey</option>
+            <option value="CDMX">Tickets CDMX</option>
+            <option value="Mar del plata">Tickets Mar del plata</option>
+            <option value="Cordona">Tickets cordoba</option>
+            <option value="La plata">Tickets La plata</option>
+            <option value="Rosario">Tickets Rosario</option>
+            <option value="Uruguay">Tickets Uruguay</option>
+
+            </select><br/>
+            
+            <label>Comentarios</label><br/>
+            <textarea id="comentario" name="comentario" rows="2" cols="30"></textarea>
+            <input type="reset" value="volver a empezar">
+
+            <input type="submit" value="Enviar"/>
+
+            <input type="checkbox"/>
+        </fieldset>
+        </form>
+</body>
+</html>
